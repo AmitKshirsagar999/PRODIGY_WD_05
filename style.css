@@ -1,0 +1,140 @@
+body {
+    font-family: math;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:sienna;
+    background-image:url("cloud2.png");
+    background-size: cover;
+}
+
+.weather-container {
+    transform: translateY(-40px);
+    text-align: center;
+    background-color:none;
+    padding: 10px;
+    border-radius: 10px;
+    /* border:2px solid black; */
+    width:600px;
+}
+
+.location-input {
+    background-color: darkgrey;
+    transform: translateX(48px);
+    width: 510px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 10px;
+    height: 50px;
+}
+
+input[type="text"]{
+    height: 25px;
+    color: black;
+    border:4px solid black;
+    border-radius: 6px;
+    background-color: floralwhite;
+}
+
+button {
+    vertical-align: top;
+    padding: 5px 16px;
+    cursor: pointer;
+    background-color:green;
+    color:white;
+    border:2px solid black;
+    border-radius:8px;
+    height:30px;
+}
+
+button:hover {
+    background-color:orangered;
+}
+
+button:active{
+    background-color:blueviolet;
+}
+
+.weather-box {
+    display:inline-block;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color:darkslategrey;
+    border-radius: 8px;
+    height: 60px;
+    border:2px solid black;
+    transition:box-shadow 1s ease-in;
+    vertical-align: top;
+}
+
+.weather-box:hover{
+    box-shadow:8px 8px 8px black;
+}
+
+.weather-box h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color:gold;
+    transform:translateY(-5px);
+}
+
+.weather-box p {
+    text-shadow: 2px 2px 2px black;
+    color:orangered;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h4{
+    background-color: orange;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: black;
+    font-size: 30px;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.condition{
+    color:green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1{
+    color:darkblue;
+    text-shadow:1px 2px 2px black;
+    transform: translateY(-10px);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    color:currentColor;
+    font-weight: bold;
+    font-size: 25px;
+    border:2px solid black;
+    border-radius: 10px;
+    width:280px;
+    transform: translateX(100px);
+    margin-left: 50px ;
+}
+
+b{
+    vertical-align:middle;
+    color:firebrick;
+}
