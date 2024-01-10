@@ -118,6 +118,11 @@ h1{
     color:darkblue;
     text-shadow:1px 2px 2px black;
     transform: translateY(-10px);
+    border:2px solid black;
+    border-radius: inherit;
+    margin-right: 110px;
+    margin-left: 110px;
+    background-color: chocolate;
 }
 
 h2{
